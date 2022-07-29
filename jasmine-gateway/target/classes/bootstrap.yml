@@ -1,0 +1,26 @@
+server:
+  port: 9010
+spring:
+  profiles:
+    active: dev
+  application:
+    name: jasmine-gateway
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        group: ${spring.profiles.active}
+        prefix: ${spring.application.name}
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          # 是否使用service-id的小写，默认是大写
+          lower-case-service-id: true
+      ## 路由
+      routes:
+        - id: jasmine-auth
+          uri: lb://jasmine-auth
+          predicates:
+            - Path=/auth/**
