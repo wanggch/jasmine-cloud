@@ -18,9 +18,3 @@ spring:
           enabled: true
           # 是否使用service-id的小写，默认是大写
           lower-case-service-id: true
-      ## 路由
-      routes:
-        - id: jasmine-auth
-          uri: lb://jasmine-auth
-          predicates:
-            - Path=/auth/**
