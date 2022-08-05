@@ -1,10 +1,10 @@
 server:
-  port: 9010
+  port: 9013
 spring:
   profiles:
     active: dev
   application:
-    name: jasmine-sentinel-route
+    name: jasmine-log
   cloud:
     nacos:
       config:
@@ -18,8 +18,3 @@ spring:
           enabled: true
           # 是否使用service-id的小写，默认是大写
           lower-case-service-id: true
-      routes:
-        - id: jasmine-auth
-          uri: lb://jasmine-auth
-          predicates:
-            - Path=/auth/**

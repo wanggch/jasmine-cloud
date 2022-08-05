@@ -4,7 +4,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: jasmine-sentinel-route
+    name: jasmine-sentinel-custom
   cloud:
     nacos:
       config:
@@ -23,3 +23,7 @@ spring:
           uri: lb://jasmine-auth
           predicates:
             - Path=/auth/**
+        - id: jasmine-log
+          uri: lb://jasmine-log
+          predicates:
+            - Path=/log/**

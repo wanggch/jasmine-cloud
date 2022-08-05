@@ -16,16 +16,15 @@
     <modules>
         <module>jasmine-gateway</module>
         <module>jasmine-auth</module>
-        <module>jasmine-sentinel</module>
+        <module>jasmine-sentinel-route</module>
+        <module>jasmine-sentinel-custom</module>
+        <module>jasmine-log</module>
     </modules>
     <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-<!--        <spring-boot.version>2.4.2</spring-boot.version>
-        <spring-cloud.version>2020.0.0</spring-cloud.version>
-        <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>-->
     </properties>
 
     <dependencies>

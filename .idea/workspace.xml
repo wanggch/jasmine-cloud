@@ -7,12 +7,14 @@
     <list default="true" id="43676de9-013a-4074-948f-f8d4bb5ef4f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jasmine-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jasmine-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jasmine-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jasmine-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/java/com/jasmine/sentinel/config/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/java/com/jasmine/sentinel/config/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/java/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/java/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/jasmine-sentinel-route/target/classes/com/jasmine/sentinel/handler/CustomSentinelGatewayBlockExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jasmine-sentinel/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -59,11 +61,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\03-project\jasmine-cloud" />
+      <recent name="D:\03-project\jasmine-cloud\jasmine-log\src\main\resources" />
       <recent name="D:\03-project\jasmine-cloud\jasmine-sentinel\src\main\resources" />
       <recent name="D:\03-project\jasmine-cloud\jasmine-auth\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jasmine.log.controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JasmineSentinelApplication">
+  <component name="RunManager" selected="Spring Boot.JasmineSentinelApplication (1)">
     <configuration name="JasmineAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jasmine-auth" />
       <extension name="coverage">
@@ -90,6 +97,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JasmineLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jasmine-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jasmine.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jasmine.log.JasmineLogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JasmineSentinelApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jasmine-sentinel-custom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jasmine.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jasmine.sentinel.JasmineSentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JasmineSentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jasmine-sentinel-route" />
       <extension name="coverage">
@@ -105,8 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.JasmineSentinelApplication" />
+        <item itemvalue="Spring Boot.JasmineSentinelApplication (1)" />
         <item itemvalue="Spring Boot.JasmineAuthApplication" />
+        <item itemvalue="Spring Boot.JasmineLogApplication" />
+        <item itemvalue="Spring Boot.JasmineSentinelApplication" />
         <item itemvalue="Spring Boot.JasmineGatewayApplication" />
       </list>
     </recent_temporary>
@@ -121,7 +156,9 @@
       <updated>1659074333458</updated>
       <workItem from="1659074334842" duration="9149000" />
       <workItem from="1659140363561" duration="9663000" />
-      <workItem from="1659597931497" duration="5844000" />
+      <workItem from="1659597931497" duration="6956000" />
+      <workItem from="1659678756076" duration="203000" />
+      <workItem from="1659679055614" duration="7878000" />
     </task>
     <servers />
   </component>

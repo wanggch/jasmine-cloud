@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jasmine-sentinel-custom" />
+        <module name="jasmine-log" />
         <module name="jasmine-gateway" />
-        <module name="jasmine-auth" />
         <module name="jasmine-sentinel-route" />
+        <module name="jasmine-auth" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jasmine-auth" options="-parameters" />
       <module name="jasmine-gateway" options="-parameters" />
+      <module name="jasmine-log" options="-parameters" />
+      <module name="jasmine-sentinel-custom" options="-parameters" />
       <module name="jasmine-sentinel-route" options="-parameters" />
     </option>
   </component>
